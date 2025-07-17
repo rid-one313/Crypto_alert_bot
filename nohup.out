@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/crypto_alert_bot/pantau_bot.py", line 22, in <module>
+    schedule.run_pending()
+  File "/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/schedule/__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/schedule/__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/schedule/__init__.py", line 173, in _run_job
+    ret = job.run()
+          ^^^^^^^^^
+  File "/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/schedule/__init__.py", line 691, in run
+    ret = self.job_func()
+          ^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/crypto_alert_bot/pantau_bot.py", line 17, in get_price
+    bot.send_message(chat_id=CHAT_ID, text=percobaan)
+                                           ^^^^^^^^^
+NameError: name 'percobaan' is not defined
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
+/data/data/com.termux/files/home/crypto_env/lib/python3.12/site-packages/telegram/utils/request.py:49: UserWarning: python-telegram-bot is using upstream urllib3. This is allowed but not supported by python-telegram-bot maintainers.
+  warnings.warn(
